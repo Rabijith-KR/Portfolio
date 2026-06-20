@@ -64,7 +64,11 @@ export const projects = [
     ],
     github: "https://github.com/Rabijith-KR/Birthday-surprise-website", 
     demo: "https://rabijith-kr.github.io/Birthday-surprise-website/",
-    images: ["/assets/projects/web1.jpg", "/assets/projects/web2.jpg" , "/assets/projects/web3.jpg"] // Placeholders
+    images: [
+  `${import.meta.env.BASE_URL}assets/projects/web1.jpg`,
+  `${import.meta.env.BASE_URL}assets/projects/web2.jpg`,
+  `${import.meta.env.BASE_URL}assets/projects/web3.jpg`
+]
   },
   {
     id: "voting-system",
@@ -82,8 +86,12 @@ export const projects = [
     ],
     github: "#", 
     demo: "",
-    images: ["/assets/projects/vote-1.jpg","/assets/projects/vote-2.jpg"] ,
-    video : ["https://drive.google.com/file/d/11d7lmusxFMWScru8NwxZH0jSHAwMNmDY/view?usp=sharing"]
+    // images: ["/assets/projects/vote-1.jpg","/assets/projects/vote-2.jpg"] ,
+    images: [
+  `${import.meta.env.BASE_URL}assets/projects/vote-1.jpg`,
+  `${import.meta.env.BASE_URL}assets/projects/vote-2.jpg`
+],
+    video : "https://drive.google.com/file/d/11d7lmusxFMWScru8NwxZH0jSHAwMNmDY/view?usp=sharing"
   },
   {
     id: "sip-puff",
@@ -115,8 +123,11 @@ export const projects = [
     ],
     github: "#",
     demo: "",
-    images: ["/assets/projects/med-1.jpg","/assets/projects/med-1.jpg"]
-    
+    // images: ["/assets/projects/med-1.jpg","/assets/projects/med-1.jpg"]
+    images: [
+  `${import.meta.env.BASE_URL}assets/projects/med-1.jpg`,
+  `${import.meta.env.BASE_URL}assets/projects/med-2.jpg`
+]
   }
 ];
 
