@@ -8,7 +8,7 @@ export const personalData = {
   location: "Palakkad, Kerala, India",
   email: "rabijithkr002@gmail.com",
   phone: "+91 7559938874",
-  linkedin: "https://linkedin.com/in/rabijith-k-r",
+  linkedin:"https://www.linkedin.com/in/rabijith-k-r-22a7662b6",
   github: "https://github.com/Rabijith-KR",
   about: "I am an Electronics and Communication Engineering graduate passionate about developing innovative solutions that bridge hardware and software. With hands-on experience in IoT systems, embedded technologies, and frontend development, I enjoy transforming ideas into practical applications that solve real-world problems.",
   cgpa: "7.55",
