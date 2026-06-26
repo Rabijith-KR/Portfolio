@@ -55,7 +55,7 @@ export default function Hero() {
                   View Projects <FiArrowRight />
                 </button>
               </Link>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-outline">
+              <a href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank" rel="noopener noreferrer" className="btn-outline">
                 <FiDownload /> Download Resume
               </a>
               <Link to="contact" smooth={true} duration={500}>
