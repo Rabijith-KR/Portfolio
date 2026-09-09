@@ -110,8 +110,10 @@ export const projects = [
     ],
     github: "https://github.com/Rabijith-KR/soundbox_server.git",
     demo: "",
-    Document:"/assets/projects/paper.pdf",
-    images: ["/assets/projects/pay1.jpg"]
+    Document:"./assets/projects/paper.pdf",
+    images: [  
+      `${import.meta.env.BASE_URL}"/assets/projects/pay1.jpg"`
+      ]
   },
   {
     id: "sip-puff",
