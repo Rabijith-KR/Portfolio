@@ -110,9 +110,9 @@ export const projects = [
     ],
     github: "https://github.com/Rabijith-KR/soundbox_server.git",
     demo: "",
-    Document:"./assets/projects/paper.pdf",
+    Document:`${import.meta.env.BASE_URL}assets/projects/paper.pdf`,
     images: [  
-      `${import.meta.env.BASE_URL}"/assets/projects/pay1.jpg"`
+      `${import.meta.env.BASE_URL}/assets/projects/pay1.jpg`
       ]
   },
   {
