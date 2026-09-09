@@ -93,6 +93,26 @@ export const projects = [
 ],
     video : "https://drive.google.com/file/d/11d7lmusxFMWScru8NwxZH0jSHAwMNmDY/view?usp=sharing"
   },
+    {
+    id: "Genesis",
+    title: "IoT-Based Voice-Announcing UPI Payment Terminal",
+    description: "This project provides a low-latency, non-invasive assistive technology solution for individuals with severe motor impairments, enabling them to control digital devices using breath-based inputs. By utilizing a high-precision BMP280 pressure sensor to detect 'SIP' (negative pressure) and 'PUFF' (positive pressure) patterns, an ESP32 microcontroller processes these fluctuations in real-time and converts them into HID commands, such as mouse clicks or keyboard strokes. The system is designed for portability and ease of use, featuring a hygienic, food-grade mouthpiece and visual feedback via LED indicators to ensure a reliable and seamless user experience",
+    technologies: ["ESP32","C++","Razorpay API","MQTT"," Node.js","Render","TFT Display", "I2S Audio"],
+    features: [
+      "🎙️ Speaks any amount — announces transactions from ₹1 to ₹99,999 using dynamically synthesized speech, built from ~34 audio segments rather than fixed recordings",
+      "💳 Real payment gateway integration — receives live UPI payment notifications via Razorpay webhooks, verified with HMAC-SHA256 signatures",
+      "📱 Dual QR system — a static '\scan to pay\' QR plus on-demand, amount-specific QR generation via a physical keypad",
+      "⚡ Real-time, event-driven architecture — MQTT-based communication means the device reacts instantly, with no polling or delay",
+      "☁️ Fully cloud-connected — Node.js backend permanently deployed and monitored, not dependent on a local machine",
+      "📺 On-device history — every transaction logged and browsable directly on the display, no phone or app required",
+      "🔋 Portable & rechargeable — runs on a Li-ion battery with live percentage tracking and low-battery voice alerts",
+      "🛠️ Built entirely on breadboard — a fully working prototype, hardware and software, with no custom PCB"
+    ],
+    github: "https://github.com/Rabijith-KR/soundbox_server.git",
+    demo: "",
+    Document:"/assets/projects/paper.pdf",
+    images: ["/assets/projects/pay1.jpg"]
+  },
   {
     id: "sip-puff",
     title: "Sip-and-Puff Assistive Interface",
@@ -141,6 +161,17 @@ export const experience = [
       "Assistive technology prototype development",
       "Testing and validation",
       "Industry workflows"
+    ]
+  },
+  {
+    id: "INTERNSHIP",
+    role: "ENGINEERING INTERN",
+    company: "Serendipity Labs (OPC) Pvt. Ltd.",
+    date: "30 JULY 2026 – 30 AUGUST 2026",
+    responsibilities: [
+      "Firmware & Hardware Integration",
+      "Backend & Cloud Architecture",
+      "Diagnostics & Low-Level Debugging"
     ]
   },
   {
